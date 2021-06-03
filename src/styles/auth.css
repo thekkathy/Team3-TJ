@@ -1,0 +1,100 @@
+.authContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+}
+
+.authFormContainer {
+  width: 300px;
+}
+
+.loginSwitchBtn {
+  cursor: pointer;
+  margin-top: 12px;
+  color: var(--light-blue) !important;
+}
+
+.authForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.authSubmitBtn {
+  background: var(--light-gold);
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  color: var(--navy);
+  padding: 6px 14px;
+  border-radius: 3px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  font-size: 16px;
+}
+
+.authSubmitBtn:hover {
+  background: var(--gold);
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  color: var(--white);
+  padding: 6px 14px;
+  border-radius: 3px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  font-size: 16px;
+  border-width: 0.2rem !important;
+  border-color: var(--gold) !important;
+}
+
+.logInHeader {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+  letter-spacing: 0.8px;
+  color: var(--white);
+}
+
+.nameInput {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nameInput > * {
+  width: 48%;
+}
+
+.authInput {
+  margin: 0;
+}
+
+.statusInput {
+  display: flex;
+  justify-content: space-between;
+}
+
+.statusInput > * {
+  width: 48%;
+  cursor: pointer;
+  border: 1px solid #ced4da;
+  display: flex;
+  justify-content: center;
+  padding: 5px 0px;
+  border-radius: 3px;
+  color: var(--navy) !important;
+  font-weight: bold;
+  background: var(--light-blue);
+}
+
+.errorMessage {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+#basic-addon2 {
+  background-color: var(--light-blue) !important;
+  color: var(--navy);
+}
